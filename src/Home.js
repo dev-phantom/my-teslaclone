@@ -7,6 +7,7 @@ import ModelS from './ModelS';
 import ModelX from './ModelX';
 import SolarPanel from './SolarPanel';
 import SolarRoof from './SolarRoof';
+import Accessories from './Accessories';
 
 
 const Home = () => {
@@ -31,6 +32,7 @@ const Home = () => {
          <div> { <ModelX /> }</div>
          <div> { <SolarPanel /> }</div>
          <div> { <SolarRoof /> }</div>
+         <div> { <Accessories /> }</div>
       </div>
      );
 }

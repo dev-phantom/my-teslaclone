@@ -4,9 +4,9 @@ const Accessories = () => {
         <div className="Accessories_body">
 
           <div className="model-name">Accessories</div>
-z          <div className="order-more">
-              <button className="order-now">order now</button>
-              <button className="learn-more">Learn More</button>
+          <div className="order-more">
+              <button className="shop-now">Shop now</button>
+
           </div>
     </div>
      );
