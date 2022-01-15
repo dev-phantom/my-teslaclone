@@ -1,0 +1,264 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+@font-face{
+  font-family: Tesla;
+  src: url("./fonts/TESLA.ttf");
+}
+@font-face{
+  font-family: uniformMedium;
+  src: url("./fonts/Uniform-Medium.ttf");
+}
+@font-face{
+  font-family: uniform;
+  src: url("./fonts/Uniform.ttf");
+}
+body{
+  background: #fff;
+  font-family: uniformMedium;
+}
+.model-3_body{
+  background: url("./img/model-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow: none;
+  height: 100vh;
+}
+.model-name{
+  text-align: center;
+  color: #424242;
+  font-size: 2.5rem;
+  font-family: uniformMedium;
+  padding-top: 15vh;
+  text-transform: capitalize;
+}
+.model-description{
+  text-align: center;
+  font-family: uniformMedium;
+  color: #757575;
+  text-transform: capitalize;
+  font-weight: 200;
+}
+.model-description > span{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.button-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 52vh;
+}
+ .custom-name{
+  width: 16rem;
+  height: 2.5rem;
+  border-radius: 2rem;
+  font-size: 12px;
+  color: #fff;
+  background: rgba(34, 34, 34, 0.842);
+  outline:none;
+  border:none;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 2rem;
+}
+ .existing-inventory{
+  width: 16rem;
+  height: 2.5rem;
+  border-radius: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #424242;
+  background: #EEEEEE;
+  outline:none;
+  border:none;
+  font-family: Uniform;
+}
+@keyframes upAndDown {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+}
+.down-arrow {
+  -webkit-transform: scale(0);
+  transform: scale(0);
+-webkit-animation: scaleIn 1s 4s 1 forwards, upAndDown 1s 5s alternate infinite forwards;
+  animation: scaleIn 1s 4s 1 forwards, upAndDown 1s 5s alternate infinite forwards;
+  width: 2rem;
+  height: auto;
+
+}
+.arrow-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5vh;
+}
+/* styling for the navbar*/
+.main-flex{
+  width: 100%;
+  position:fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem 3rem;
+}
+.first-flex > span{
+  text-transform: uppercase;
+  font-family: tesla;
+  letter-spacing: 10px;
+  font-weight:500;
+}
+.items-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.items-flex > a{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #424242;
+  font-size: 15px;
+  padding: 0 .5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.items-flex > a:hover{
+  background: rgba(34, 34, 34, 0.233);
+  border-radius: 1.5rem;
+  width: max-content;
+  height: 2rem;
+  transition:all .5s ease-in-out;
+}
+.others-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.others-flex > a{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #424242;
+  font-size: 15px;
+  padding: 0 .5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.others-flex > a:hover{
+  background: rgba(34, 34, 34, 0.233);
+  border-radius: 1.5rem;
+  width: max-content;
+  height: 2rem;
+  transition:all .5s ease-in-out;
+}
+/*styling model Y now*/
+.model-Y_body{
+  background: url("./img/ModelY.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow: none;
+  height: 100vh;
+}
+
+.button-fley{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 60vh;
+}
+/*styling model S now*/
+.model-S_body{
+  background: url("./img/models.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow: none;
+  height: 100vh;
+}
+/*styling model X now*/
+.model-X_body{
+  background: url("./img/ModelX.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow: none;
+  height: 100vh;
+}
+/*styling Solar Panel now*/
+.Solar-Panel_body{
+  background: url("./img/Solar-Panel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow: none;
+  height: 100vh;
+}
+
+.order-more{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 57vh;
+}
+ .order-now{
+  width: 16rem;
+  height: 2.5rem;
+  border-radius: 2rem;
+  font-size: 12px;
+  color: #fff;
+  background: rgba(34, 34, 34, 0.842);
+  outline:none;
+  border:none;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 2rem;
+}
+ .learn-more{
+  width: 16rem;
+  height: 2.5rem;
+  border-radius: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #424242;
+  background: #eeeeee70;
+  outline:none;
+  border:none;
+  font-family: Uniform;
+}
+/*styling Solar Roof now*/
+.Solar-Roof_body{
+  background: url("./img/Solar-Roof.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow: none;
+  height: 100vh;
+}
